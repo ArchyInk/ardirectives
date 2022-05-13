@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import { download } from '../src'
+import { download, DownloadOptions } from '../src'
 
 
 const app = createApp(App)

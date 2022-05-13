@@ -1,6 +1,5 @@
 {
   "name": "ardirectives",
-  "private": true,
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
@@ -11,6 +10,7 @@
     "arhooks-vue": "^1.0.4",
     "vue": "^3.2.25"
   },
+  "main": "./lib/index.js",
   "files": [
     "lib"
   ],
