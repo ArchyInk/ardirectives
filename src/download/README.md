@@ -1,6 +1,6 @@
 # ardirectives/download
 
-使用addEventListener的钩子函数
+下载的自定义指令，用以避免浏览器直接打开某些类型的文件而不是下载
 
 # 使用方式
 
