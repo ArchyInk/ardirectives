@@ -1,0 +1,23 @@
+{
+  "name": "ardirectives",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "arhooks-vue": "^1.0.4",
+    "vue": "^3.2.25"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.5",
+    "vue-tsc": "^0.34.7"
+  }
+}
