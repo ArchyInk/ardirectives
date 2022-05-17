@@ -1,5 +1,12 @@
+<!--
+ * @author: Archy
+ * @Date: 2022-05-13 09:40:22
+ * @LastEditors: Archy
+ * @LastEditTime: 2022-05-17 11:27:26
+ * @FilePath: \ardirectives\examples\components\download.vue
+ * @description: 
+-->
 <script setup lang="ts">
-defineProps<{ msg: string }>()
 const beforeDownload = ()=>{
   console.log('开始下载');
 }
@@ -17,7 +24,7 @@ const downloaded = ()=>{
       onDownloaded: downloaded,
     }
   " target="_blank">
-    Vite Docs
+    下载
   </div>
 </template>
 
