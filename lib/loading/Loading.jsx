@@ -2,7 +2,7 @@
  * @author: Archy
  * @Date: 2022-05-17 11:06:41
  * @LastEditors: Archy
- * @LastEditTime: 2022-05-17 16:33:43
+ * @LastEditTime: 2022-05-17 16:53:47
  * @FilePath: \ardirectives\src\loading\loading.tsx
  * @description:
  */
