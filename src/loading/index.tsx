@@ -2,7 +2,7 @@
  * @author: Archy
  * @Date: 2022-05-17 11:10:00
  * @LastEditors: Archy
- * @LastEditTime: 2022-05-17 16:11:15
+ * @LastEditTime: 2022-05-18 10:42:07
  * @FilePath: \ardirectives\src\loading\index.tsx
  * @description: 
  */
@@ -19,7 +19,7 @@ const renderLoading = (el: HTMLElement, binding: DirectiveBinding<LoadingBinding
   if (typeof binding?.value === 'boolean') {
     render(<Loading visible={binding.value}></Loading>, el)
   } else {
-    render(<Loading visible={binding.value.visible} attrs={binding.value.options}></Loading>, el)
+    render(<Loading visible={binding.value.visible} options={binding.value.options}></Loading>, el)
   }
 }
 

@@ -2,7 +2,7 @@
  * @author: Archy
  * @Date: 2022-05-13 09:40:22
  * @LastEditors: Archy
- * @LastEditTime: 2022-05-17 16:53:23
+ * @LastEditTime: 2022-05-18 09:54:45
  * @FilePath: \ardirectives\vite.config.ts
  * @description: 
  */
@@ -10,11 +10,13 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import libCss from 'vite-plugin-libcss'
 import vueJsx from "@vitejs/plugin-vue-jsx";
+import dts from 'vite-plugin-dts'
+
 
 const path = require('path')
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), vueJsx(),libCss()],
+  plugins: [vue(), vueJsx(),libCss(),dts()],
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),

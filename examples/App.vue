@@ -2,7 +2,7 @@
  * @author: Archy
  * @Date: 2022-05-13 09:40:22
  * @LastEditors: Archy
- * @LastEditTime: 2022-05-17 11:27:05
+ * @LastEditTime: 2022-05-18 10:02:54
  * @FilePath: \ardirectives\examples\App.vue
  * @description: 
 -->
@@ -17,7 +17,7 @@ import Loading from './components/Loading.vue'
   download:
   <Download msg="Hello Vue 3 + TypeScript + Vite" />
   loading:
-  <Loading></Loading>
+  <Loading tips="tip"></Loading>
 </template>
 
 <style>
